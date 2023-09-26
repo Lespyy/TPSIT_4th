@@ -12,7 +12,7 @@ typedef struct {
     char State[DIMARR];
 } Film;
 
-void UploadArray(Film v[], int *k) {
+void UploadStruct(Film v[], int *k) {
     FILE *file = fopen("listafilm.csv", "r");
     int DimString = DIMARR * 6;
     char String[DimString];
@@ -65,7 +65,7 @@ int main() {
     int NumFilm = 0, year = 0;
     Film Archive[DIMARR];
 
-    UploadArray(Archive, &NumFilm);
+    UploadStruct(Archive, &NumFilm);
 
     //StampaRecord(Archive, NumFilm);
 
