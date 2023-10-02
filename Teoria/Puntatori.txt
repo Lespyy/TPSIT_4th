@@ -1,0 +1,76 @@
+Ci sono due mondi che convivono in un codice 
+
+quello dei valori e quello degli indirizzi
+
+esistono i &  e  i *
+
+& referenzazione
+
+* dereferenzazione
+
+se siamo nel mondo delle variabili e abbiamo una variabile in memoria possiamo prendere il suo indirizzo con & e se vogliamo prendere il valore *
+
+
+in particolare in C dire un puntatore ha poco senso perché ogni puntatore può puntare a una tipologia diversa di variabile 
+
+
+esempio: 
+
+int *p;
+int* p;
+
+oppure
+
+typedef int* puntint;
+
+puntint == int*
+
+
+io posso dichairare una variabile senza puntatore
+
+x = 8 
+int *p; 
+p = &x;
+
+
+così ho più modi pr accedere a p
+
+artimetica dei puntatori
+
+dato un puntatore possiamo sommare o sottrarre un numero intero
+
+dati due puntatori farne la differenza
+
+se io sommo 1 a un puntatore intero lui andrà avanti di 4 byte ese aumento di 1 a un double(16 byte) lui andrà avanti di 16 byte
+
+posso usare sizeof(tipo) e mi dice il numero di quanti byte occupa
+
+printf ("%d", sizeof(int));
+
+scr:
+4
+
+
+
+l'array essendo un puntatore posso 
+
+
+
+se ho un puntatore e ci sommo 1 quello va alla cella succiessiva o x bite
+
+questa cisa permette di scorrere un array
+
+quindi per scorrere un vettore posso aumentre l'array stesso
+
+quindi posso dichiarare un vettore allo stesso modo 
+int vet[5]
+
+per accedere a un elemento io da scrivere vet[3] vado a scrivere *(vet + 3) e non *vet + 3 sarebbe come scrivere *(vet) + 3 
+quindi va a aggiungere tre al primo valore
+
+& mondo valori mondo indirizzi
+
+* mondo indirizzi mondo valori
+
+
+
