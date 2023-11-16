@@ -8,6 +8,10 @@ typedef struct node{
 
 int CalcolaLunghezzaRicorsiva(Node* head){
 
+    if (head == NULL) {
+        return 0;
+    }
+
     return 1 + CalcolaLunghezzaRicorsiva(head->next);
 
 }

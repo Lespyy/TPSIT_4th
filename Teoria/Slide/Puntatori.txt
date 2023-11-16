@@ -1,0 +1,100 @@
+Puntatori e Allocazione Dinamica
+
+Passaggio per rifermiento:
+
+Riflessioni:
+
+- non serve copiare i dati
+
+- quando passiamo un parametro per riferimento dentro 
+	a una funzione modificheremo direttamente il dato
+
+- non usiamo il valore della cella la l'indirizzo della cella
+
+Quindi tutto questo lo facciamo manipolando gli indirizzi di memoeria 
+e non i valori al loro interno
+
+
+
+Accesso agli indirizzi
+
+ricavare l'indirizzo si fa con &
+
+opertore di referenziamento
+
+& mondo valori -> mondo indirizzi
+
+p = &a = (a p assegna l'indirizzo di a)
+
+accesso ai valori degli indirizzi
+
+si usa l' *
+
+quindi l'operatore di deferenziamento
+
+* mondo indirizzi -> mondo valori
+
+*p = 9 = (alla cella puntata da p assegna 9)
+
+quindi:
+
+p = &a = (a p assegna l'indirizzo di a)
+
+*p = 9 = (alla cella puntata da p assegna 9)
+
+a = 9 (quindi a ottiene 9)
+
+
+
+
+Puntatori
+
+se dico puntatore a t sto dicendo variabile di tipo puntatore a t quindi
+
+una variabile di tipo puntatore che contiene l'indirizzo di UNA variabile di tipologia int 
+
+<tipo> * <nomeVariabile>
+
+es.
+
+int* p
+
+puntatore a interi di p
+
+
+
+Quindi:
+
+- il puntatore è una variabile destinata a contenere l'indirizzo di una altra variabile
+
+- un puntatore non può contenere tutto perché c'è un limite di tipologia
+
+
+
+Funzioni:
+
+malloc()
+- chiede al sistema di allocare una area di memoria di dimensione x
+
+- restituisce l'indirizzo di memoria allocata (se impossibile torna NULL (0))
+
+esempio:
+
+int *p;
+p = (int*) malloc (5*sizeof(int));
+
+free()libero l'area di memoria dinamica 
+
+serve per non avere una memory loss o perdita di memoria
+
+
+
+free(p);
+
+
+
+Heap
+
+lo heap è la parte di memoria allocata dinamencamente 
+dirante la esecuzione del programma e persiste finche non viene 
+distrutta con il free
