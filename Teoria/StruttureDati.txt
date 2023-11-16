@@ -1,0 +1,69 @@
+Le strutture Dati oltre alle struct sono le 
+
+LISTE COLLLEGATE
+
+
+PILE 
+
+CODE FIFO
+
+ALBERI BINARI
+
+sono tutte strutture di tipo sequenziale tranne gli alberi
+
+queste strutture noi di solito itendiamo odi per salvare ati in c 
+
+a sono anche altro
+
+tutte e tre si basano sulle strutture autoreferenziale 
+
+quindi sono strutture perché si basano sulla struct 
+
+autoreferenziali vuol dire che puntano se stesse
+
+quindi io faccio strct node {
+
+void * data ;
+struct node * next;
+
+}
+
+marco --> valeria ---> pino NULL
+
+potrebbe essere infinito ma per convenzione io dichiaro l'ultimo puntatore a NULL
+
+qiesta cose si dice tantissimo
+
+
+questi oggetti servonosoprattutto per poter aggiungere un elemento a un vettore ad esempio
+
+e desageriamo in python qesti saranno di tipo diverso
+
+l'array memorizzato in una area di memeoria sequenziale 
+
+al puntatoredella struct successiva lo chiameremo sempre NEXT
+
+
+e questa è una lista di python ma in c
+
+
+
+come si fa a creare una lista in un programma in c?
+
+devo dichiarare una lista in c  con i campi precedenti
+
+nel programma o nel main devo dichiarare un puntatore a questa struct e sarà il primo elemento della lista
+
+che sarà l'head 
+
+poi lo alloco
+
+ogni nuovo elemento viene aggiunto non come nell'array che aggiungo in maniera sequenziale 
+
+infatti io posso allocare in mezzo alla struttura
+
+e basta che faccio in modo che punto all'elemento dopo
+
+e il vantaggio è  che posso fare operazioni che prima non potevo fare
+
+

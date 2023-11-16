@@ -1,0 +1,70 @@
+GIT  e GITHUB
+
+
+git hub nasce per avere tutte le versioni di un codice in modo semplice veloce e chiaro
+
+i sistemi di github si chiamano VCS e tracca i cambiamenti di un file mano mano che le persone cambiano il progetto
+
+Version 3.7
+
+3 major 7 minor
+
+3.7.8
+3 major 7 minor 8 minor
+
+un gioco o un sistema operativo è impossibile che sia perfetto
+
+quindi git hub permette il lavoro collaborativo
+
+quindi traccia la storia di un software 
+
+ogni sviluppatore può sapere
+
+quali modifiche sono state fatte
+
+chi ha fatto le mdofiche 
+
+perché erano necessarie
+
+
+github usa la tecnologia di git 
+
+infatti github è un esempio di dvcs in cui d è distribuito quindi permette di accederci d tutto il mondo a cuinque abbia i requisiti di accederci quindi si chiama lavoro asincrono 
+
+perché ognuno può fare quello che vuole quando vuole
+
+
+definizioni
+
+repository: un insieme di tutti i file e le directory associate a un progetto
+
+ogni volta che facciamo la commit lui fa uno snapshot in cui si salva come era il progetto in quel momento
+
+su un repository posso creare + storie quando faccio un branch 
+
+se io voglio fare una feature importante che potrebbe rompere il gioco cosa faccio
+
+faccio una storia apposta che mi permette di fare tutte le mdifche che voglio senza rompere il principale 
+
+e poi se funziona tutto faccio una merge che mi permette di riunire tutto
+
+
+
+inoltre su github ci sono altre funzioni
+
+
+Social
+le stelle le chat ecc
+
+Wiki
+mi permette di creare una pagina stile wikipedia sulle repo
+
+pagine web 
+mi permette di fare un sito web
+
+e aiuta molto bene per le aziende
+
+poi è diventato + importante grazie a copilot la prima intelligenza artificiale brava per scrivere codice
+
+ma è a pagamento 
+

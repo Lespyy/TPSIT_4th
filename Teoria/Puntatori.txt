@@ -73,4 +73,16 @@ quindi va a aggiungere tre al primo valore
 * mondo indirizzi mondo valori
 
 
+non esistono vettori sono solo puntatori a celle di memoria
+
+Malloc() allocca dinamiamnte una array in memoria
+
+la Malloc ritorna semore un puntatore a void ma noi possiamo fare il casting 
+
+p = (int*) malloc (5*sizeof(int));
+
+
+l funzione malloc prende un parametro che è lo spazio in MEMORIA dell'array
+
+quindi casting a interi malloc la dimensione dell'array * la grandezza che occupano gli int sizeof(int) = 4
 
