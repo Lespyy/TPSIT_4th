@@ -11,9 +11,9 @@ ALBERI BINARI
 
 sono tutte strutture di tipo sequenziale tranne gli alberi
 
-queste strutture noi di solito itendiamo odi per salvare ati in c 
+queste strutture noi di solito itendiamo nodi per salvare dati in c 
 
-a sono anche altro
+ma sono anche altro
 
 tutte e tre si basano sulle strutture autoreferenziale 
 
@@ -65,5 +65,74 @@ infatti io posso allocare in mezzo alla struttura
 e basta che faccio in modo che punto all'elemento dopo
 
 e il vantaggio è  che posso fare operazioni che prima non potevo fare
+
+
+Coda
+
+Struttura dati di tipo FIFO
+
+a desempio si usa in tutte le piattaforme di streaming
+
+si usano due tipi di puntatori 
+
+    head
+
+    tail
+
+funzioni:
+
+    enqueue inserire aggiungo in tail
+
+    dequeue tigliere toglo in head
+
+void enqueue (Struct queue_node **head, struct queue_node ** tail, struct queue_node * element){
+
+
+    if (is_empty(*head)){
+
+        *head = element;
+
+    }else{
+
+        (*tail)->next = element;
+
+    }
+
+    *tail = element;
+
+    element->next = NULL;
+
+
+}
+
+ogni cella punta quella prima fino alla prima che punta a null
+
+void dequeue (Struct queue_node **head, struct queue_node ** tail){
+
+    struct queue_node *ret = *head;
+
+    if (is_empty(*head)){
+
+        return NULL;
+
+    }else{
+
+        *head = ret->next;
+
+    }
+
+    if (*head == NULL){
+
+        *tail = NULL;
+
+    }
+
+    return ret;
+
+
+}
+
+
+
 
 

@@ -1,0 +1,77 @@
+Complessità di tempo
+
+    notazione o grande
+
+    il tempo che un algoritmo ci impega per fare qualcosa si chiama 
+
+    complessità di tempo
+
+    quindi noi usiamo la complessità di tempo per calcolare in modo empirico cosa è più veloce
+
+    Mettiamo conto 
+
+        per torvare il minimo di un array da 1M di elementi
+
+        cosa è più veloce?
+
+        risposta un for e un if 
+
+        il for essendo dipendente dalla lunghezza
+
+        sarà proprorzionale a N (dim array)
+
+        quindi il tempo è proporzionale a N
+
+        quindi O(N)
+
+        ed è lineare
+
+    invece se
+
+        mettiamo che devo ordinare
+
+        visto che ho due cicli for 
+
+        sarà O(n^2)
+
+        ed è quadratico
+
+    se l'algoritmo non dipende dalla lunghezza 
+
+        dirò O(1)
+
+        in cui indico che non dipende dalla lunghezza del'array
+
+    per calcolare la complessità di tempo secondo la annotazione O ci si pone sempre nel caso più pessimista
+
+    per dare una risposta univoca
+
+    invece per gli alberi 
+
+        O ((log n )* n)
+
+    quindi se noi facciamo il grafico con 
+
+        x = N
+        y = tempo 
+
+        se fosse lineare O(1)
+
+            allora sarà una retta parallela alla x
+
+        se fosse crescita lineare O(n)
+
+            allora sarà una retta in crescita costante
+
+        se fosse in crescita quadrato o cubico O (n^x)
+
+            che cresce in modo parabolico
+
+        
+
+
+
+
+	
+
+    

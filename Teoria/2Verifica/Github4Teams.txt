@@ -1,0 +1,96 @@
+Github 4 teams
+
+    si può fare il teams
+
+    i azienda
+
+    dovremo caricare
+
+    immagini suoni tracce audio e video
+
+        magari video tutorial
+
+        musica e immagini free copyright
+
+
+
+    istruzioni per l'uso//MD
+
+    istruzioni per l'istallazione //MD
+
+    CODICE//linguaggio
+
+
+    Come si lavora in gruppo?
+
+        meotid
+
+
+            agile 
+
+                più adatto alla scuola
+
+                è fatto da varie fasi
+
+                    1.
+
+                        plan
+
+                        pianificare cosa fare
+
+                    2. design
+
+                        Progettarre in senso lato
+
+                            una classe
+
+                            pezzo di software
+
+                    3. develop
+
+                        creo il CODICE
+
+                        le sprite
+
+                        tracce audio suoni
+
+                        manuale d'uso
+
+                    4. fase di test
+
+                        testo il CODICE
+
+                        provo se funziona
+
+                    5. deploy
+
+                        mettere il software in produzione
+
+                        fare la realease ufficiale e distribuirlo
+
+                    6. review
+
+                        prendiamo tutti i risultati dei test
+
+                        raccogliamo tutto
+
+                            positivo 
+
+                            negativo
+
+                    1. si pianifica come migliorare il gioco
+
+                        prendendo le migliorie 
+
+                        risolvendo bug 
+
+                    e continua così fino a che non finisce
+
+                        
+
+
+
+
+
+
+
