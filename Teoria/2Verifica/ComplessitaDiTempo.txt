@@ -1,3 +1,5 @@
+X x K k
+
 Complessità di tempo
 
     notazione o grande

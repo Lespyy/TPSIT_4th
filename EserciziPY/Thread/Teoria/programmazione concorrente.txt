@@ -1,0 +1,82 @@
+Programmazione concorrente
+
+    un programma concorrente ènun programma che esegue due azioni simultaneamente
+
+    si può usare in
+
+        python 
+
+        java 
+
+        robotica
+
+        sistemi operativi
+
+    Processi
+
+        è una entità assestante con cui si indica un programma in esecuzione
+
+        quando si parla di processo si parla di una istanza di un programma
+
+            quindi solo quando eseguiamo un programma quello diventa un processo
+
+        di solito è totalmente autonomo
+
+        ha una propria porzione di RAM 
+
+        che è totalmente riservato a lui
+
+        quindi TEORICAMENTE 
+
+            un processo non può comunicare con un altro processo
+
+        quindi bisogna trovare un modo per farli comunicare
+
+            Socket
+
+    Cosa è un thread?
+
+        permette la concorrenza
+
+            + attività in esecuzione
+
+        quindi è una attività autonoma che vive all'interno di un processo 
+
+            di conseguenza un processo puà avere moltissimi processi 
+
+        MA non ha uno spazio di indirizzamento
+
+            quindi ragiona tutto sulla variabile
+
+        il che lo rende molto complicato
+
+
+        sebbene in alcuni casi sia essenziale usare i thread 
+
+            spesso è fortemente sconsigliato
+
+        meccanismi di sincronizzazione
+
+            in particolare useremo la Lock
+
+    programma sequenziale ha 
+
+        un indirizzamento
+
+        esecuzione 
+
+        fine
+
+    Parallelismo virtuale 
+
+        Con dei meccanismi di slicing
+
+        che affetta il tempo
+
+    Parallelismo fisico
+
+        dual core 
+
+        calcolano insieme
+
+        
