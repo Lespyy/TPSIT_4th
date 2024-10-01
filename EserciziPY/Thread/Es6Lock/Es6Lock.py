@@ -15,7 +15,13 @@ class Prelievo (threading.Thread):
             global balance
             number = balance * (self.percent / 100)
             time.sleep(1) 
+            """
+            fa si che il primo thread che acquisiche la lock è l'unico che opera dulla variabile poi lo rilascia quando a concluso l'operazione E QUINDI E' BLOCCANTE
+            si può chiamare anche mutex = mutuamente esclusivo 
+            """
+            lock.acquire()
             balance -= number
+            lock.release()
             print(f"il saldo aggiornato è {balance}")
             time.sleep(5)
 
